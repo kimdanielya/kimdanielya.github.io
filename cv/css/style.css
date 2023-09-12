@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #c69e9e;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav a {
+    color: red;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #00bcd4;
+}
+
+footer {
+    background-color: #c69e9e;
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    color: red;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ff5722;
+}
+
+.unique-class1 {
+    background-color: #e47c7c;
+    padding: 150px;
+}
+
+.unique-class2 {
+    background-color: #efd1d1;
+    padding: 30px;
+}
+
+.unique-class3 {
+    background-color: #efd1d1;
+    padding: 40px;
+}
+
+body {
+    font-family: 'Font1', sans-serif;
+    color: #333;
+}
+
+.page-section h2 {
+    font-family: 'Font2', serif;
+    color: #555;
+}
+
+hr {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.top-div img {
+    border: 2px solid #333;
+    border-radius: 10px;
+}
+
+.page-section:first-child::before {
+
+    content: url('images/Sunset.jpeg');
+}
+
+.page-section:nth-child(2)::before {
+    content: url('images/IMG_4635.jpg');
+}
+
+.page-section:nth-child(3)::before {
+    content: url('images/IMG_4635.jpg');    
+}
+
+.card {
+    background-color: #f4a6a6;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+.three-col {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+
+.unique-class1 ul,
+.unique-class2 ul,
+.unique-class3 ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    padding: 0;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
